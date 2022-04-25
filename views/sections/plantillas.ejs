@@ -1,0 +1,136 @@
+<% var rootPath = '../'; %>
+<!-- Main -->
+        <section class="wrapper style1">
+          <div class="container">
+            <div class="row gtr-200">
+              <div class="col-4 col-12-narrower">
+                <div id="sidebar">
+
+                  <!-- Sidebar -->
+                    <section>
+                      <!-- Categorias -->
+                      <script>
+                        function filtcat(c) {
+                        var x = document.getElementById("todo");
+                        var y = x.querySelectorAll("article");
+                        var i,c;
+                        for (i = 0; i < y.length; i++) {
+                        if (y[i].className == c || c == "all") {y[i].style.display = "inline-block"}
+                        else {y[i].style.display = "none"}
+                        }
+                        }
+                      </script>
+                      <u><h3>Categorías / Filtrar</h3></u>
+                        <button onclick="filtcat('ventas')">Ventas</button><br>
+                        <button onclick="filtcat('servicio')">Servicios</button><br>
+                        <button onclick="filtcat('all')">Todas</button>
+                      <footer>
+                        <hr>
+                      </footer>
+
+                    </section>
+
+                    <section>
+                      <h3>Novedades</h3>
+                      <span class="image featured"><img src="images/responsive-web.gif" alt=""></span>
+                      <p align="justify">
+                        En la actualidad, tener una página web nos brinda credibilidad ante los clientes potenciales y nos ayuda a ser visibles en los buscadores, de ahí la importancia de crear una estructura en la que el contenido resulte relevante.
+                      </p>
+                      <footer>
+                        <a href="#"></a>
+                      </footer>
+                    </section>
+
+                    <section>
+                      
+                      <h3>Facilidades de pago</h3>
+                      <center>
+                        <img src="images/paypal.png" alt="" width="190" height="100">
+                        <img src="images/yappy.png" alt="" width="140" height="110"><br><br>
+                        <img src="images/banca.png" alt="" width="160" height="90">
+                      </center> 
+ 
+                    </section>
+
+                </div>
+              </div>
+              <div class="col-8  col-12-narrower imp-narrower">
+                <div id="content">
+                  <article>
+                    <header>
+                      <!-- Titulo -->
+                      <h2>Plantillas disponibles</h2>
+                      <p>Catalago con los distintos modelos y especificaciones.</p> 
+                    </header>
+                  </article>
+
+                  <!-- Content -->
+                  <article id="todo">
+                    <article class="ventas">
+
+                      <h3><a href="/teknix">Teknix</a></h3>
+                        <div class="dtl27">
+                            <img src="images/teknix.jpg" alt="">
+                            <div class="dtl">
+                                <h3>Teknix</h3>
+                                <h4>Precio: &#36;20</h4>
+                                <p>Tipo: Servicio,
+                    especializada para brindar servicios de mantenimiento o reparación de equipos electrónicos, con detalles de las certificaciones que cuenta este local o certificaciones con la que cuenta su equipo técnico. La plantilla es fácilmente personalizable y ampliable con documentación detallada. Nuestro equipo de soporte rápido y amable estará encantado de ayudarle con cualquier necesidad con la plantilla.</p>
+                                <a href="/teknix">Ver Más</a>
+                            </div>
+                        </div>
+                      </article>
+
+                      <article class="ventas">
+
+                      <h3><a href="/paintdrops">Paintdrops</a></h3>
+
+                        <div class="dtl27">
+                            <img src="images/paintdrops.jpg" alt="">
+                            <div class="dtl">
+                                <h3>Paintdrops</h3>
+                                <h4>Precio: &#36;30</h4>
+                                <p>Tipo: Servicio, 
+                    diseño creado y adaptado para un entorno al arte, con combinaciones de colores neutrales y características para el arte. 100% Responsive, facil adaptación. La plantilla es fácilmente personalizable y ampliable con documentación detallada. Nuestro equipo de soporte rápido y amable estará encantado de ayudarle con cualquier necesidad con la plantilla.</p>
+                                <a href="/paintdrops">Ver Más</a>
+                            </div>
+                        </div>
+                                        </article>
+
+                                        <article class="servicio">
+
+                      <h3><a href="/bookz">Bookz</a></h3>
+
+                        <div class="dtl27">
+                            <img src="images/bookz.jpg" alt="">
+                            <div class="dtl">
+                                <h3>Bookz</h3>
+                                <h4>Precio: &#36;40</h4>
+                                <p>Tipo: Ventas,
+                    entorno creado y adaptado a las personas por amor a las lecturas, está creada para detallar nuevas novelas o libros, así como también las más vistas. La plantilla es fácilmente personalizable y ampliable con documentación detallada. Nuestro equipo de soporte rápido y amable estará encantado de ayudarle con cualquier necesidad con la plantilla.</p>
+                                <a href="/bookz">Ver Más</a>
+                            </div>
+                        </div>
+                    </article>
+                                        <article class="servicio">
+
+                      <h3><a href="/axton">Axton</a></h3>
+
+                        <div class="dtl27">
+                            <img src="images/axton.jpg" alt="">
+                            <div class="dtl">
+                                <h3>Axton</h3>
+                                <h4>Precio: &#36;50</h4>
+                                <p>Tipo: Ventas.
+                    Axton es una plantilla HTML responsiva maravillosamente impresionante para Personal Portfolio Online! 100% Responsive. La plantilla es fácilmente personalizable y ampliable con documentación detallada. Nuestro equipo de soporte rápido y amable estará encantado de ayudarle con cualquier necesidad con la plantilla.</p><br>
+                                <a href="/axton">Ver Más</a>
+                            </div>
+                        </div>
+                    </article>
+                  </article>  
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>

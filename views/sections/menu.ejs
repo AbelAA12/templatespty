@@ -1,0 +1,23 @@
+<!-- Header -->
+        <div id="header">
+
+          <!-- Logo -->
+            <h1><a href="/" id="logo">Templates<em> PTY</em></a></h1>
+            
+         <!-- Nav -->
+            <nav id="nav">
+              <ul>
+                <li class=" <% if (pagina == 1) { %> current <% } %>">
+                <a href="/">Inicio</a></li>
+                <li class=" <% if (pagina == 2 || pagina == 5 || pagina == 6 || pagina == 7 || pagina == 8 || pagina == 9 || pagina == 10) { %> current <% } %>">
+                <a href="plantillas">Plantillas</a></li>
+                <li class=" <% if (pagina == 3) { %> current <% } %>">
+                <a href="servicios">Servicios</a></li>
+                <li class=" <% if (pagina == 4) { %> current <% } %>">
+                <a href="contacto">Contacto</a></li>
+                
+                <% if (pagina >= 11) { %> <li class="current"><a href="error404">Error404</a></li> <% } %>
+                
+              </ul>
+            </nav>
+          </div>  
